@@ -17,6 +17,7 @@ for i in range(1, 20):
       status = False
              
     if status == True:
-      print chr(c)
+      sys.stdout.write(chr(c))
+      sys.stdout.flush()
       break
-		
+print ''
