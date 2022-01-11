@@ -1,7 +1,7 @@
 import requests
 import sys
 
-# URL Target
+# URL Target Example
 url = 'http://localhost/admin_login.php'
  
 for i in range(1, 20):
